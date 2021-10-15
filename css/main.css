@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: xad;
+	src: url(../fonts/pressuru.otf);
+}
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+body {
+	background-color: #efefef;
+	font-family: xad;
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: yellow;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.photo:hover {
+	transform: rotate(5deg) scale(1.07);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+}
+.photo1 {
+	background-image: url(../img/1.png);
+}
+.photo2 {
+	background-image:  url(../img/2.jpeg);
+}
+.photo3 {
+	background-image:  url(../img/3.jfif);
+}
+.photo4 {
+	background-image:  url(../img/4.jpg);
+}
+.photo5 {
+	background-image:  url(../img/5.jpg);
+}
+.photo6 {
+	background-image:  url(../img/6.jfif);
+}
+.photo7 {
+	background-image:  url(../img/7.jfif);
+}
+.photo8 {
+	background-image:  url(../img/8.jfif);
+}
